@@ -12,7 +12,6 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
 }
 
 .section-one {
@@ -23,7 +22,6 @@ body {
     padding: 90px;
     padding-top: 10px;
     padding-bottom: 0px;
-
 }
 
 .section-one h2 {
@@ -81,9 +79,7 @@ a {
     flex: 1;
 }
 
-
 .section-three {
-    
     text-align: center;
 }
 
@@ -96,6 +92,7 @@ a {
 .card-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
     padding: 60px;
 }
@@ -115,11 +112,14 @@ a {
 
 .section-four {
     background-color: #E5E7EB;
-    flex-shrink: 0;
-    flex-grow: 0;
+}
+
+.quote-container {
+    flex: 1;
 }
 
 blockquote {
+    margin: 20px;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -137,6 +137,7 @@ blockquote cite {
 
 .section-five {
     padding: 60px;
+    flex: 1;
 }
 
 .action {
@@ -163,4 +164,5 @@ blockquote cite {
     color: #E5E7EB;
     text-align: center;
     padding: 20px;
+    
 }
